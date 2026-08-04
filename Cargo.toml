@@ -1,0 +1,10 @@
+[package]
+name = "rustfmt-json"
+version = "1.0.0"
+edition = "2021"
+description = "Fast JSON formatter, validator, and minifier"
+license = "MIT"
+repository = "https://github.com/abirkhan3323-source/rustfmt-json"
+
+[dependencies]
+serde_json = "1.0"

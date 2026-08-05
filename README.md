@@ -31,3 +31,9 @@ cat data.json | rustfmt-json
 | `-m, --minify` | Output minified JSON |
 | `-v, --validate` | Only validate, no output |
 | `-h, --help` | Show help |
+
+## Examples
+```bash
+echo '{"a":1}' | rustfmt-json
+rustfmt-json --validate file.json
+```
